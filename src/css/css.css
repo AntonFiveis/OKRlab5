@@ -1,0 +1,42 @@
+#mainCarousel {
+    margin: auto;
+    border: orangered 10px solid;
+    border-radius: 10px;
+}
+
+.carousel-container {
+    width: 800px;
+}
+
+.loader-container {
+    height: 300px;
+}
+
+.footer {
+    background-color: #60a375;
+    height: 50px;
+    font-size: 1rem;
+}
+
+#root {
+    min-height: 86.5vh;
+}
+#cart_link{
+    border:black 1px solid;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+.actions-title {
+    color: #FFBA00;
+}
+
+.card-container {
+    background-color: #eee;
+    padding: 0;
+    border: red 3px solid;
+    border-radius: 10px;
+}
+.card-container:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
