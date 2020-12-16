@@ -132,7 +132,7 @@ describe('Router Module', function () {
     </div>
     </div>`
   beforeAll(() => {
-    document.body.innerHTML = '<div  class="container-fluid " id="root"></div>'
+    document.body.innerHTML = '<div class="container-fluid " id="root"></div>'
     this.router = new Router('root')
   })
   it('render catalog', async () => {
@@ -456,37 +456,5 @@ describe('Router Module', function () {
     document.getElementsByClassName('btn-danger')[0].dispatchEvent(click)
     expect(JSON.parse(localStorage.getItem('cart'))).toEqual([{ id: 7, size: 2, count: 3 }])
   })
-  it('should bundle submit button with listener', async () => {
-    localStorage.setItem('cart', JSON.stringify([{ id: 7, size: 2, count: 3 }]))
-    document.body.innerHTML =
-            `<div class="container-fluid " id="root"><div class="col-6">
-        <form id="mainForm">
-        <div class="form-group">
-        <label for="email">Email address</label>
-        <input type="email" class="form-control" id="email" placeholder="email" required value="a@gmail.com">
-</div>
-<div class="form-group">
-        <label for="name">Имя</label>
-        <input type="text" class="form-control" id="name" placeholder="Your name" required value="s">
-</div>
-<div class="form-group">
-        <label for="address">Адрес</label>
-        <input type="text" class="form-control" id="address" placeholder="ул..." required value="s">
-</div>
-<div class="form-group">
-    <label for="payType">Example select</label>
-    <select class="form-control" id="payType">
-      <option>Наличные</option>
-      <option>Картой через терминал курьера</option>
-    </select>
-  </div>
-<button type="submit" class="btn btn-primary" id="submit">Submit</button>
-</form>
-</div>
-</div>`
-    this.router.makeListenerForForm()
-    const submit = new Event('submit')
-    await document.getElementsByTagName('form')[0].dispatchEvent(submit)
-    expect(this.router.cart.getCart()).toEqual([])
-  })
+
 })

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1608152660101" clover="3.2.0">
-  <project timestamp="1608152660102" name="All files">
-    <metrics statements="135" coveredstatements="125" conditionals="51" coveredconditionals="43" methods="39" coveredmethods="39" elements="225" coveredelements="207" complexity="0" loc="135" ncloc="135" packages="2" files="10" classes="10"/>
+<coverage generated="1608154184066" clover="3.2.0">
+  <project timestamp="1608154184067" name="All files">
+    <metrics statements="136" coveredstatements="122" conditionals="51" coveredconditionals="43" methods="39" coveredmethods="37" elements="226" coveredelements="202" complexity="0" loc="136" ncloc="136" packages="2" files="10" classes="10"/>
     <package name="js">
-      <metrics statements="113" coveredstatements="103" conditionals="51" coveredconditionals="43" methods="31" coveredmethods="31"/>
+      <metrics statements="114" coveredstatements="100" conditionals="51" coveredconditionals="43" methods="31" coveredmethods="29"/>
       <file name="carousel.js" path="C:\Users\Anton\Desktop\Study\OKR\lab4\src\js\carousel.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
@@ -30,10 +30,10 @@
         <line num="40" count="2" type="stmt"/>
         <line num="42" count="3" type="stmt"/>
         <line num="44" count="2" type="stmt"/>
-        <line num="48" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="10" type="cond" truecount="2" falsecount="0"/>
         <line num="49" count="1" type="stmt"/>
         <line num="51" count="1" type="stmt"/>
-        <line num="53" count="11" type="stmt"/>
+        <line num="53" count="9" type="stmt"/>
       </file>
       <file name="loader.js" path="C:\Users\Anton\Desktop\Study\OKR\lab4\src\js\loader.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -48,7 +48,7 @@
         <line num="40" count="7" type="stmt"/>
       </file>
       <file name="router.js" path="C:\Users\Anton\Desktop\Study\OKR\lab4\src\js\router.js">
-        <metrics statements="65" coveredstatements="55" conditionals="25" coveredconditionals="19" methods="9" coveredmethods="9"/>
+        <metrics statements="66" coveredstatements="53" conditionals="25" coveredconditionals="19" methods="9" coveredmethods="8"/>
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
@@ -108,17 +108,18 @@
         <line num="99" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="103" count="2" type="stmt"/>
         <line num="105" count="0" type="stmt"/>
-        <line num="112" count="2" type="stmt"/>
-        <line num="113" count="2" type="stmt"/>
-        <line num="114" count="1" type="stmt"/>
-        <line num="115" count="1" type="stmt"/>
+        <line num="112" count="1" type="stmt"/>
+        <line num="113" count="1" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
         <line num="116" count="0" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
         <line num="118" count="0" type="stmt"/>
       </file>
       <file name="test.server.js" path="C:\Users\Anton\Desktop\Study\OKR\lab4\src\js\test.server.js">
-        <metrics statements="17" coveredstatements="17" conditionals="8" coveredconditionals="8" methods="8" coveredmethods="8"/>
+        <metrics statements="17" coveredstatements="16" conditionals="8" coveredconditionals="8" methods="8" coveredmethods="7"/>
         <line num="5" count="3" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
         <line num="13" count="13" type="stmt"/>
         <line num="14" count="13" type="cond" truecount="2" falsecount="0"/>
         <line num="15" count="2" type="stmt"/>

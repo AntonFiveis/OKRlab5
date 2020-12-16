@@ -66,6 +66,7 @@ describe('Test server client module', function () {
         }
       ],
       recommended: [1, 3, 5],
+      orders:[],
       actions: [
         {
           id: 1,

@@ -114,7 +114,7 @@ export default class Router {
       e.preventDefault()
       await this.client.post({ form: new FormData(formElem), cart: this.cart.getCart() })
       this.cart.clearCart()
-      // document.getElementById('cart_total').innerHTML = 0
+      document.getElementById('cart_total').innerHTML = 0
       await this.render('..#')
     }
   }

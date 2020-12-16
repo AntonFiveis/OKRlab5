@@ -5,31 +5,19 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
     entry: './src/js/index.js',
-    mode:'development',
     output: {
         path: path.resolve(__dirname, 'docs'),
         filename: '[contenthash].js',
     },
     module: {
         rules: [
-            {
-                test:/\.(jpg|jfif)$/,
-                use:[{loader: "file-loader"}]
-            },
+
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader',
                 },
-            },
-            {
-                test: /\.html$/,
-                use: [
-                    {
-                        loader: 'html-loader',
-                    },
-                ],
             },
             {
                 test: /\.css$/,
