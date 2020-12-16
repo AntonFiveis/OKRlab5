@@ -47,7 +47,6 @@ export default class Cart {
   getCart () {
     if (!localStorage.getItem('cart')) {
       localStorage.setItem('cart', JSON.stringify([]))
-
       return []
     } else {
       return JSON.parse(localStorage.getItem('cart'))

@@ -456,5 +456,4 @@ describe('Router Module', function () {
     document.getElementsByClassName('btn-danger')[0].dispatchEvent(click)
     expect(JSON.parse(localStorage.getItem('cart'))).toEqual([{ id: 7, size: 2, count: 3 }])
   })
-
 })

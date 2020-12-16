@@ -5,7 +5,6 @@ import mainPage from './pages/main_page'
 import Cart from './cart'
 import catalogPage from './pages/catalog_page'
 import cartPage from './pages/cart_page'
-
 export default class Router {
   constructor (rootID) {
     this.root = document.getElementById(rootID)
